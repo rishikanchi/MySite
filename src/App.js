@@ -1,6 +1,8 @@
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
-import { BrowserRouter } from 'react-router-dom'
+import Intro from './components/Intro';
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
+      <Intro />
     </div>
   );
 }

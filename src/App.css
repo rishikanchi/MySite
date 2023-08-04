@@ -1,6 +1,8 @@
 #App {
   background-color: black;
+  color: white;
   font-family: Gtwalsheimprotrial, sans-serif;
+  width: 100%;
   margin: 0;
-  min-height: 100vh;
+  min-height: 200vh;
 }
