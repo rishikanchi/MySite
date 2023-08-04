@@ -15,10 +15,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src={rk_logo} id='logoPic'></img>
+          <img src={rk_logo} id='logoPic' alt='logo'></img>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          <img src={hamburger} id='hamPic'></img>
+          <img src={hamburger} id='hamPic' alt='hamburger-menu'></img>
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
