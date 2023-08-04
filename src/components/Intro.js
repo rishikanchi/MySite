@@ -10,7 +10,7 @@ function Intro() {
                 <div id='name' className="name">Rishi Kanchi<span id='dot' className="name"></span></div>
             </div>
             <div id='picCont'>
-                <img src={rishi_nobg} id="headshot"></img>
+                <img src={rishi_nobg} id="headshot" alt="headshot"></img>
             </div>
         </div>
     )
