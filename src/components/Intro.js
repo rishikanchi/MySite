@@ -15,14 +15,15 @@ function Intro() {
                 <span className="name" style={{fontSize: '62px', margin: 0}}><Typewriter
                     options={{
                         strings: [
-                                    'Web Designer' + "<span id='dot'></span>",
+                                    'Web Developer' + "<span id='dot'></span>",
                                     'Scholar' + "<span id='dot'></span>",
                                     'Mathlete' + "<span id='dot'></span>", 
                                     'Teacher' + "<span id='dot'></span>",
                                     'Chess Player' + "<span id='dot'></span>",
                                     'Volunteer' + "<span id='dot'></span>",
                                     'Data Scientist' + "<span id='dot'></span>",
-                                    'Engineer'+ "<span id='dot'></span>"
+                                    'Innovator' + "<span id='dot'></span>",
+                                    'Roboticist'+ "<span id='dot'></span>"
                                 ],
                         autoStart: true,
                         loop: true,

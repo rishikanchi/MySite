@@ -1,47 +1,57 @@
-import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import hamburger from '../images/hamburger.png'
-import rk_logo from '../images/rk_logo.png'
-import './Navbar.css'
+import { useState } from 'react';
+import { Link } from 'react-scroll'; // Import the scroll Link
+import './Navbar.css';
+import rk_logo from "../images/rk_logo.png"
+import hamburger from "../images/hamburger.png"
 
 const Navbar = () => {
-  const [showNavbar, setShowNavbar] = useState(false)
+  const [showNavbar, setShowNavbar] = useState(false);
 
   const handleShowNavbar = () => {
-    setShowNavbar(!showNavbar)
-  }
+    setShowNavbar(!showNavbar);
+  };
 
   return (
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src={rk_logo} id='logoPic' alt='logo'></img>
+          <img src={rk_logo} id="logoPic" alt="logo" />
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          <img src={hamburger} id='hamPic' alt='hamburger-menu'></img>
+          <img src={hamburger} id="hamPic" alt="hamburger-menu" />
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to="intro" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                Home
+              </Link>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <Link to="blog" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                Blog
+              </Link>
             </li>
             <li>
-              <NavLink to="/projects">Projects</NavLink>
+              <Link to="projects" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                Projects
+              </Link>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <Link to="about" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                About
+              </Link>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <Link to="contact" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

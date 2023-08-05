@@ -65,6 +65,8 @@ body {
   text-decoration: none;
 }
 
+/* ... (your existing styles) */
+
 .nav-elements ul a.active {
   color: white;
   font-weight: 500;
@@ -80,6 +82,8 @@ body {
   height: 2px;
   background-color: #5f99ff;
 }
+
+/* ... (your existing styles) */
 
 @media (max-width: 768px) {
   .nav-elements ul li:not(:last-child) {
@@ -97,7 +101,7 @@ body {
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.87);
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
