@@ -7,3 +7,6 @@
   from = "/*"
   to = "/public/index.html"
   status = 200
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
