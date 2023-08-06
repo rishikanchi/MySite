@@ -10,7 +10,7 @@ function Intro() {
         <div id='intro'>
             <div id="nameCont">
                 <div className='hello'>Hello, my name is</div>
-                <div className="name">Rishi Kanchi<span id='dot'></span></div>
+                <h1 className="name" style={{marginTop: '0'}}>Rishi Kanchi<span id='dot'></span></h1>
                 <div className='hello'>I am a</div>
                 <span className="name" style={{fontSize: '62px', margin: 0}}><Typewriter
                     options={{
@@ -31,7 +31,7 @@ function Intro() {
                 /></span>
             </div>
             <div id='picCont'>
-                <img src={rishi_nobg} id="headshot" alt="headshot"></img>
+                <img src={rishi_nobg} id="headshot" alt="Rishi Kanchi Headshot"></img>
             </div>
         </div>
     )

@@ -6,9 +6,6 @@ import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 
 function App() {
-    useEffect(() => {
-      document.title = 'Rishi Kanchi';
-    }, []);
 
   return (
     <div id = "App">
