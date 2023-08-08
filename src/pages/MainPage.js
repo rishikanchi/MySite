@@ -6,7 +6,6 @@ import AboutMe from '../components/AboutMe';
 function MainPage() {
     return (
         <>
-            <Navbar />
             <Intro />
             <AboutMe />
         </>

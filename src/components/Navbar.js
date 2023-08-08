@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src={rk_logo} id="logoPic" alt="Logo Rishi Kanchi" />
+          <img src={rk_logo} id="logoPic" onClick={() => {window.location.href = '/#Intro';}} alt="Logo Rishi Kanchi" />
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <img src={hamburger} id="hamPic" alt="Hamburger Menu Rishi Kanchi" />
