@@ -3,4 +3,6 @@ User-agent: *
 Disallow: /resume
 Disallow: /startup-unicorn-analysis
 Disallow: /404
+
 Disallow: /public/fonts/gtwalsheimprotrial/demo
+Disallow: /fonts/gtwalsheimprotrial/demo
