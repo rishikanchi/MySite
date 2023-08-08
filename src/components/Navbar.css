@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 body {
   margin: 0;
   padding: 0;
-  font-family: Gtwalsheimprotrial, sans-serif;
 }
 
 .container {
@@ -44,9 +41,6 @@ body {
   height: 40px;
 }
 
-.nav-elements {
-}
-
 .nav-elements ul {
   display: flex;
   justify-content: space-between;
@@ -65,8 +59,6 @@ body {
   text-decoration: none;
 }
 
-/* ... (your existing styles) */
-
 .nav-elements ul a.active {
   color: white;
   font-weight: 500;
@@ -82,8 +74,6 @@ body {
   height: 2px;
   background-color: #5f99ff;
 }
-
-/* ... (your existing styles) */
 
 @media (max-width: 768px) {
   .nav-elements ul li:not(:last-child) {

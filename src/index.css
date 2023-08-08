@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'GT Walsheim Pro Bold';
+  src: url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Bold.eot') format('embedded-opentype');
+  src: url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Bold.eot') format('embedded-opentype'),
+       url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Bold.woff2') format('woff2'),
+       url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Bold.woff') format('woff'),
+       url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Regular';
+  src: url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Regular.eot') format('embedded-opentype');
+  src: url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Regular.eot') format('embedded-opentype'),
+       url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Regular.woff2') format('woff2'),
+       url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Regular.woff') format('woff'),
+       url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

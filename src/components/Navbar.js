@@ -23,13 +23,13 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <Link to="intro" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+              <Link to="Intro" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="blog" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
-                Blog
+              <Link to="AboutMe" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                About Me
               </Link>
             </li>
             <li>

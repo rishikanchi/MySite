@@ -1,29 +1,30 @@
 import "./Intro.css";
-import { React, useState } from 'react'
+import { React } from 'react'
 import rishi_nobg from "../images/rishi_nobg.png";
 import Typewriter from 'typewriter-effect';
 
 
 function Intro() {
 
+    const DOT = "<span id='dot'></span>"
+    
     return (
-        <div id='intro'>
+        <div id='Intro' className='section sectionFlexSimple'>
             <div id="nameCont">
                 <div className='hello'>Hello, my name is</div>
-                <h1 className="name" style={{marginTop: '0'}}>Rishi Kanchi<span id='dot'></span></h1>
+                <h1 className="title" style={{marginTop: '0'}}>Rishi Kanchi<span id='dot'></span></h1>
                 <div className='hello'>I am a</div>
-                <span className="name" style={{fontSize: '62px', margin: 0}}><Typewriter
+                <span className="title" style={{fontSize: '62px', margin: 0}}><Typewriter
                     options={{
                         strings: [
-                                    'Web Developer' + "<span id='dot'></span>",
-                                    'Scholar' + "<span id='dot'></span>",
-                                    'Mathlete' + "<span id='dot'></span>", 
-                                    'Teacher' + "<span id='dot'></span>",
-                                    'Chess Player' + "<span id='dot'></span>",
-                                    'Volunteer' + "<span id='dot'></span>",
-                                    'Data Scientist' + "<span id='dot'></span>",
-                                    'Innovator' + "<span id='dot'></span>",
-                                    'Roboticist'+ "<span id='dot'></span>"
+                                    'Web Developer' + DOT,
+                                    'Scholar' + DOT, 
+                                    'Mathlete' + DOT, 
+                                    'Chess Player' + DOT,
+                                    'Roboticist' + DOT,
+                                    'Teacher' + DOT,
+                                    'Data Scientist' + DOT,
+                                    'Musician' + DOT,
                                 ],
                         autoStart: true,
                         loop: true,
