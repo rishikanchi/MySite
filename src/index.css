@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/*Added Font Families Below*/
 @font-face {
   font-family: 'GT Walsheim Pro Bold';
   src: url('../public/fonts/Gtwalsheimprotrial/GTWalsheimPro-Bold.eot') format('embedded-opentype');

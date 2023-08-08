@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Domain is on Google Domains
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DNS Servers and Website Deployment are both done by Netlify.com
 
-## Available Scripts
+The site is on Google because of Google Search Console 
 
-In the project directory, you can run:
+Index.html - just displays the App.js on the site - don't need to touch
 
-### `npm start`
+Index.css - contains the font families needed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+App.js - contains the Routes which redirects and displays different pages for different links (E.g. the rishikanchi.com/resume goes to the resume and rishikanchi.com/startup-unicorns-analysis goes to the final project at DPI)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+App.css - contains the styles that I want as a base for the entire project (like background-color and font color). This file also includes basic styles for classes I want to use in the rest of the project (like .button which contains css for button)
 
-### `npm test`
+Pages folder - contains the different pages on the site
+    
+In the pages folder, there is the ManualLinks folder - has pages that automatically redirect to another page and aren't connected to the main site (they are like bitly links for me)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Components folder - contains the components used on the page - mainly organization
 
-### `npm run build`
+The public folder contains the fonts and index.html file that contains the metadata that allows Google to show my website with Google Search Console
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+How to change logo and title:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1) Put logo in public folder
+2) Change all logos AND titles in the index.html file to your image and your desired title
+3) Change all images in the manifest.json file to your image
 
-### `npm run eject`
+Gitignore file - I just serached up "Gitignore for React website" and copy pasted the top result - this makes sure that the node_modules and huge files don't get into github and cause issues
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+package.json - contains all node_modules used so that Netlify downloads them before deploying site - you dont need to change this when you download node_modules it automatically adds the node_modules into the json
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+package-lock.json - idk what doesn't really matter
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+_redirect and netlify.toml are used to deploy website on Netlify - don't change them - if you have these files, no changes needed on netlify.com, just connect to github and deploy
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+robots.txt - contains Disallow which chooses which specific url should not be able to show up on google

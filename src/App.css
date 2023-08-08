@@ -7,14 +7,16 @@
   min-height: 200vh;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .title {
   font-size: 70px;
   font-weight: 700;
   margin-bottom: 50px;
+}
+
+.text {
+  color: #999;
+  line-height: 24px;
+  font-size: 18px;
 }
 
 .button {
@@ -33,12 +35,6 @@ html {
 .button:hover {
   background-color: rgba(95, 153, 255, 0.15);
   padding: 12px 10px 12px 10px;
-}
-
-.text {
-  color: #999;
-  line-height: 24px;
-  font-size: 18px;
 }
 
 .section {
