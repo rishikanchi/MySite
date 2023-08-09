@@ -1,0 +1,42 @@
+#DigitalScholars {
+    padding-top: 7vh;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+#DSTitleCont {
+    margin-right: 2.5vw;
+    margin-top: 6vh;
+}
+
+.squareBox {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#DSDesc {
+    max-width: 70ch;
+}
+
+@media (max-width: 1434px) {
+    #DSTitleCont {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1399px) {
+    #DSTitleCont {
+        text-align: center;
+    }
+    #DSVidDesc {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #DigitalScholars {
+        padding-top: 4vh;
+    }
+}

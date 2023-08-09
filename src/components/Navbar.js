@@ -15,7 +15,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src={rk_logo} id="logoPic" onClick={() => {window.location.href = '/#Intro';}} alt="Logo Rishi Kanchi" />
+          <Link to="Intro" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+            <img src={rk_logo} id="logoPic" alt="Logo Rishi Kanchi" />
+          </Link>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <img src={hamburger} id="hamPic" alt="Hamburger Menu Rishi Kanchi" />
@@ -33,8 +35,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="projects" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
-                Projects
+              <Link to="DigitalScholars" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                Digital Scholars
               </Link>
             </li>
             <li>

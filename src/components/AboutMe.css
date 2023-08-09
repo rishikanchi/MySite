@@ -14,5 +14,11 @@
 #aboutText {
     max-width: 70ch;
     padding: 20px 5px;
-    font-family: "GT Walsheim Pro Regular", sans-serif;
+}
+
+@media (max-width: 1383px) {
+    #aboutTitleCont {
+        align-items: center;
+        text-align: center;
+    }
 }

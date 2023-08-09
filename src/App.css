@@ -17,6 +17,7 @@
   color: #999;
   line-height: 24px;
   font-size: 18px;
+  font-family: "GT Walsheim Pro Regular", sans-serif;
 }
 
 .button {
@@ -50,4 +51,29 @@
   align-items: center;
   align-content: center;
   max-width: 100vw;
+}
+
+.titleDesc {
+  color: rgb(95, 153, 255);
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}
+
+/* Copied from W3 Schools Responsive iFrame Page */
+.iframeCont {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 700px;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  margin: 40px 0;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
