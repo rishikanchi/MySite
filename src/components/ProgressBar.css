@@ -1,0 +1,38 @@
+#progBar {
+    width: 500px;
+    max-width: 90vw;
+    margin: 20px 10px;
+}
+
+#progBarWord {
+    margin-bottom: 30px;
+}
+
+#progBarTitle {
+    float: left;
+    font-size: 24px;
+}
+
+@media (max-width: 630px) {
+    #progBarTitle {
+        font-size: 18px;
+    }
+}
+
+#progBarPercent {
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    font-family: "GT Walsheim Pro Regular", sans-serif;
+}
+
+#theBarCont {
+    width: 100%;
+    height: 20px;
+    background-color: #444444;
+}
+
+#theBar {
+    height: 100%;
+    background-color: rgb(95, 153, 255);
+}

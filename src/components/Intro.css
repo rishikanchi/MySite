@@ -1,6 +1,14 @@
 #Intro {
-    padding-top: 125px;
     min-height: 700px;
+    padding-top: 5vh;
+    /*width: calc(100% - 20%);
+    padding: 5vh 10%;*/
+}
+
+@media (max-width: 1142px) {
+    #Intro {
+        padding-top: 125px;
+    }
 }
 
 #nameCont {
