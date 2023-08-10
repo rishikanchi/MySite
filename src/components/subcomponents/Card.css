@@ -1,0 +1,60 @@
+#Card {
+    width: 375px;
+    max-width: 90vw;
+    height: 500px;
+    border-radius: 30px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 25px;
+}
+
+#overlay {
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    opacity: 0; /* Initially hide the overlay */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    border-radius: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+
+    transition-duration: 0.4s;
+}
+
+/* Show overlay on hover */
+#overlay:hover {
+    opacity: 1;
+}
+
+
+#orgPos {
+    font-size: 18px;
+}
+
+#orgName {
+    color: white;
+    font-family: "GT Walsheim Pro Bold", sans-serif;
+    font-size: 28px;
+    line-height: 120%;
+}
+
+/* Styles for touch-enabled devices */
+@media (hover: none) and (pointer: coarse) {
+    #overlay {
+        opacity: 1;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        width: calc(100% - 15px);
+        height: calc(100% - 15px);
+
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+}

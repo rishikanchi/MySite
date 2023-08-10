@@ -1,9 +1,8 @@
 import { React } from 'react';
-import Navbar from '../components/Navbar';
-import Intro from '../components/Intro';
-import AboutMe from '../components/AboutMe';
-import Programming from '../components/Programming';
-import DigitalScholars from '../components/DigitalScholars';
+import Intro from '../components/sections/Intro';
+import AboutMe from '../components/sections/AboutMe';
+import Programming from '../components/sections/Programming';
+import Organizations from '../components/sections/Organizations';
 
 function MainPage() {
     return (
@@ -11,6 +10,7 @@ function MainPage() {
             <Intro />
             <AboutMe />
             <Programming />
+            <Organizations />
         </>
     );
 }

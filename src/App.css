@@ -41,7 +41,7 @@
 .section {
   margin: 0;
   width: calc(100% - 10%);
-  padding: 8vh 5%;
+  padding: 6vh 5%;
 }
 
 @media (max-width: 1500px) {

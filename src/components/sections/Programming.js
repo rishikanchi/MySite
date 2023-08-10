@@ -1,6 +1,6 @@
 import { React } from 'react';
 import "./Programming.css";
-import ProgressBar from "./ProgressBar.js" 
+import ProgressBar from "../subcomponents/ProgressBar" 
 import DigitalScholars from './DigitalScholars';
 
 function Programming() {

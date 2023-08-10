@@ -1,0 +1,21 @@
+#Organizations {
+
+}
+
+#orgTitleCont {
+    text-align: center;
+
+}
+
+@media (max-width: 550px) {
+    #orgTitle {
+        font-size: 45px;
+    }
+}
+
+#orgCont {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}

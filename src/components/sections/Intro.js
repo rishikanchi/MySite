@@ -1,6 +1,7 @@
 import "./Intro.css";
 import { React } from 'react'
-import rishi_nobg from "../images/rishi_nobg.png";
+/*You can only do ../ maximum, you can never do .../ or more dots*/
+import rishi_nobg from "../../images/rishi_nobg.png"
 import Typewriter from 'typewriter-effect';
 
 

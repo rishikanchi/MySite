@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll'; // Import the scroll Link
 import './Navbar.css';
-import rk_logo from "../images/rk_logo.png"
-import hamburger from "../images/hamburger.png"
+/*You can only do ../ maximum, you can never do .../ or more dots*/
+import rk_logo from "../../images/rk_logo.png"
+import hamburger from "../../images/hamburger.png"
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
