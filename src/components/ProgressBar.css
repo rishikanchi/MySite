@@ -1,7 +1,13 @@
 #progBar {
-    width: 500px;
-    max-width: 90vw;
+    width: 30vw;
+    max-width: 85vw;
     margin: 20px 10px;
+}
+
+@media (max-width: 1350px) {
+    #progBar {
+        width: 500px;
+    }
 }
 
 #progBarWord {

@@ -7,7 +7,7 @@ function Programming() {
     return (
         <div id="Programming" className='section'>
             <div id='ProgTitle' className='title'>My Programming</div>
-
+            <center><button id='githubBtn' className='button' onClick={() => {window.open('https://github.com/rishikanchi', "_blank")}}>MY GITHUB</button></center>
             <div id='skillsBox'>
                 <div className='halfBox'>
                     <ProgressBar title='HTML, CSS, & JS' percent='90%'/>

@@ -11,6 +11,12 @@
     }
 }
 
+@media (min-height: 875px) {
+    #Intro {
+        padding-top: 150px;
+    }
+}
+
 #nameCont {
     max-width: 100vw;
 }

@@ -11,6 +11,10 @@
     padding: 20px 5px;
 }
 
+#aboutTitle {
+    margin-bottom: 12px;
+}
+
 #aboutText {
     max-width: 70ch;
     padding: 20px 5px;
