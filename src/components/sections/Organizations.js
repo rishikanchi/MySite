@@ -15,7 +15,7 @@ export default function Organizations() {
         </div>
 
         <div id='orgCont'>
-            <Card name='Midwest Math Circle' position='Vice President' image={mwmc_logo} link='https://mwmathcircle.org'/>
+            <Card name='Midwest Math Circle' position='President' image={mwmc_logo} link='https://mwmathcircle.org'/>
             <Card name='Chess Pupils' position='Outreach Director' image={chesspupils_logo} link='https://chess.thepuzzlr.com/'/>
             <Card name='Vidyaranya Kannada Kuta' position='Youth Committee Captain' image={vkk_logo} link='https://www.vidyaranyakannadakuta.org/'/>
         </div>
