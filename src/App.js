@@ -7,6 +7,7 @@ import PageNotFound from './pages/PageNotFound';
 
 import StartupUnicornAnalysis from './pages/MyManualLinks/StartupUnicornAnalysis';
 import Resume from './pages/MyManualLinks/Resume';
+import French from './pages/French';
 
 
 function App() {
@@ -14,12 +15,12 @@ function App() {
   /*The div below was made so that the basic styles in App.css can be employed*/
   return (
     <div id = "App">
-      <Navbar />
       {/*The routes below goes to specific pages depending on the ending to the site (rishikanchi.com/XXX)*/}
       <Routes>
         <Route index element={<MainPage />}></Route>
         <Route path="/startup-unicorn-analysis" element={<StartupUnicornAnalysis />}></Route>
         <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/francais" element={<French />}></Route>
 
         {/*The star indicates any page not included in the Routes*/}
         <Route path="/404" element={<PageNotFound />} />

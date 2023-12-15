@@ -1,0 +1,143 @@
+#French {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#frenchTitle {
+    padding-top: 80px;
+    text-align: center;
+    width: 100vw;
+}
+
+#nextQuestion {
+    text-align: center;
+    width: 100vw;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+
+#timer {
+    text-align: center;
+    width: 100vw;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.frenchImages {
+    width: 9%;
+}
+
+#image13 {
+    width: 3%;
+}
+
+#image10 {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    width: 11%;
+}
+
+#image7 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+#image6 {
+    position: absolute;
+    top: 67%;
+    left: 55%;
+}
+
+#image9 {
+    position: absolute;
+    top: 66%;
+    left: 39%;
+    width: 11%;
+}
+
+#image3 {
+    width: 12%;
+    position: absolute;
+    top: 48%;
+    left: 33%;
+}
+
+#image2 {
+    position: absolute;
+    top: 31%;
+    left: 53.5%;
+}
+
+#image4 {
+    position: absolute;
+    top: 33%;
+    left: 43%;
+    width: 8%;
+}
+
+#image1 {
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    width: 11%;
+}
+
+#image12 {
+    position: absolute;
+    top: 60%;
+    left: 67%;
+    width: 10%;
+}
+
+#image5 {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+}
+
+#image15 {
+    position: absolute;
+    top: 32%;
+    left: 65%;
+}
+
+#image16 {
+    position: absolute;
+    top: 33%;
+    left: 32%;
+}
+
+#image17 {
+    position: absolute;
+    top: 48%;
+    left: 74%;
+}
+
+#image14 {
+    position: absolute;
+    top: 36%;
+    left: 21%;
+}
+
+#image11 {
+    position: absolute;
+    top: 81%;
+    left: 63%;
+    width: 11%;
+}
+
+#image13 {
+    position: absolute;
+    top: 60%;
+    left: 22%;
+}
+
+#image8 {
+    position: absolute;
+    top: 78%;
+    left: 18%;
+}
