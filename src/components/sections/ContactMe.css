@@ -1,0 +1,23 @@
+#ContactMe {
+    margin-top: 70px;
+}
+
+#leftHalf { 
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#cmtitleDesc {
+    font-size: 32px;
+    max-width: 35ch;
+    line-height: 50px;
+}
+
+#rightHalf {
+}
+
+@media (max-width: 1400px) {
+    #leftHalf {
+        text-align: center;
+    }
+}

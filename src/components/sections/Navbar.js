@@ -46,8 +46,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
-                Contact
+              <Link to="ContactMe" smooth={true} duration={500} offset={-100} spy={true} activeClass="active">
+                Contact Me
               </Link>
             </li>
           </ul>

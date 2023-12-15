@@ -1,0 +1,74 @@
+/* ContactForm.css */
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form {
+    width: 30vw;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+    color: #aaaaaa;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "GT Walsheim Pro Regular", sans-serif;  
+    margin-top: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    min-width: 20vw;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+
+
+  .buttonAdj {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  .submitButtonAdj {
+    font-size: 22px;
+    background-color: rgba(95, 153, 255, 0.3);
+    letter-spacing: 2px;
+    padding: 13px 13px;
+    border-radius: 2.5px;
+  }
+
+  .submitButtonAdj:hover {
+    padding: 15px 15px;
+    background-color: rgba(95, 153, 255, 0.4);
+  }
+
+  #message {
+    min-height: 250px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 1400px) {
+    .contact-form {
+        width: 80vw;
+    }
+}

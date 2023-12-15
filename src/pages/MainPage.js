@@ -3,6 +3,7 @@ import Intro from '../components/sections/Intro';
 import AboutMe from '../components/sections/AboutMe';
 import Programming from '../components/sections/Programming';
 import Organizations from '../components/sections/Organizations';
+import ContactMe from '../components/sections/ContactMe';
 
 function MainPage() {
     return (
@@ -11,6 +12,7 @@ function MainPage() {
             <AboutMe />
             <Programming />
             <Organizations />
+            <ContactMe />
         </>
     );
 }

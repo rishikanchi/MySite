@@ -14,7 +14,7 @@
     height: calc(100% - 25px);
     width: calc(100% - 25px);
     z-index: 1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
 
     opacity: 1; /* Initially hide the overlay */
     display: flex;
@@ -31,18 +31,18 @@
 
 /* Show overlay on hover */
 #overlay:hover{
-    background-color: rgba(0, 0, 0, 0.45);
-    padding-left: 40px;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding-left: 25px;
 }
 
 #orgPos {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 #orgName {
     color: white;
     font-family: "GT Walsheim Pro Bold", sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 120%;
 }
 
