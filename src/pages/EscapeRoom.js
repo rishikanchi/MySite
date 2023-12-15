@@ -82,7 +82,7 @@ const EscapeRoom = () => {
   const [password, setPassword] = useState(['', '', '', '']);
   const [isCorrect, setIsCorrect] = useState(null);
   const [isShaking, setIsShaking] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(0.1 * 60); // 30 minutes in seconds
   const [gameEnded, setGameEnded] = useState(false);
 
   useEffect(() => {
