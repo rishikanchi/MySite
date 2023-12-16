@@ -5,9 +5,11 @@
 }
 
 #frenchTitle {
-    padding-top: 80px;
+    padding-top: 50px;
     text-align: center;
     width: 100vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 #nextQuestion {
@@ -22,7 +24,6 @@
     text-align: center;
     width: 100vw;
     font-size: 24px;
-    padding-bottom: 50px;
 }
 
 .frenchImages {
