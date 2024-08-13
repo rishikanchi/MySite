@@ -1,7 +1,5 @@
 import { React } from 'react';
 import "./Research.css";
-import ProgressBar from "../subcomponents/ProgressBar" 
-import DigitalScholars from './DigitalScholars';
 import RISE from './RISE';
 
 function Research() {
