@@ -21,6 +21,11 @@
 
 #RISEDesc {
     max-width: 60ch;
+    margin-bottom: 50px;
+}
+
+#PosterImg {
+    width: 30vw;
 }
 
 @media (max-width: 1434px) {
@@ -42,5 +47,12 @@
 
     #RISE {
         padding-top: 4vh;
+    }
+}
+
+@media (max-width: 1356px) {
+    #PosterImg {
+        width: 750px;
+        max-width: 80vw;
     }
 }

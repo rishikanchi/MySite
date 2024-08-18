@@ -18,7 +18,7 @@ function RISE() {
             </div>
 
             <div id="RISEPoster" className="squareBox">
-                <img src={ALS_Poster} alt="ALS_Poster" style={{width: '600px', maxWidth: '80vw'}}/>
+                <img id='PosterImg' src={ALS_Poster} alt="ALS_Poster" />
             </div>
         </div>
     )
