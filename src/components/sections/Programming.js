@@ -10,6 +10,7 @@ function Programming() {
             <center><button id='githubBtn' className='button' onClick={() => {window.open('https://github.com/rishikanchi', "_blank")}}>MY GITHUB</button></center>
             <div id='skillsBox'>
                 <div className='halfBox'>
+                    <ProgressBar title='Artificial Intelligence' percent='50%'/>
                     <ProgressBar title='HTML, CSS, & JS' percent='90%'/>
                     <ProgressBar title='React' percent='80%'/>
                     <ProgressBar title='Swift' percent='60%'/>  
@@ -18,7 +19,8 @@ function Programming() {
                 <div className='halfBox'>
                     <ProgressBar title='Python' percent='70%'/>
                     <ProgressBar title='Data Analysis and Visualization' percent='90%'/>
-                    <ProgressBar title='Firebase' percent='50%'/>
+                    <ProgressBar title='MongoDB' percent='50%'/>
+                    <ProgressBar title='Kotlin' percent='70%'/>  
                 </div>
             </div>
 
