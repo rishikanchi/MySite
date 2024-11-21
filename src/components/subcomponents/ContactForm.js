@@ -1,6 +1,7 @@
 // ContactForm.js
 import React, { useState } from 'react';
 import './ContactForm.css';
+import FadeIn from './FadeIn';
 
 const ContactForm = () => {
 
@@ -32,47 +33,65 @@ return (
             <input type="hidden" name="form-name" value="contact" />
             <input type="hidden" name="bot-field" />
 
-            <label htmlFor="name">Name</label>
-            <input className='buttonAdj button'
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-            />
+            <FadeIn delay={500}>
+                <label htmlFor="name">Name</label>
+            </FadeIn>
+            <FadeIn delay={550}>
+                <input className='buttonAdj button'
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                />
+            </FadeIn>
 
-            <label htmlFor="email">Email</label>
-            <input className='buttonAdj button'   
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-            />
+            <FadeIn delay={600}>
+                <label htmlFor="email">Email</label>
+            </FadeIn>
+            <FadeIn delay={650}>
+                <input className='buttonAdj button'   
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                />
+            </FadeIn>
 
-            <label htmlFor="subject">Subject</label>
-            <input 
-                className='buttonAdj button'
-                type="text"
-                id="subject"
-                name="subject"
-                value={formData.subject}
-                onChange={handleChange}
-                required
-            />
+            <FadeIn delay={700}>
+                <label htmlFor="subject">Subject</label>
+            </FadeIn>
+            <FadeIn delay={750}>
+                <input 
+                    className='buttonAdj button'
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required
+                />
+            </FadeIn>
 
-            <label htmlFor="message">Message</label>
-            <textarea className='buttonAdj button'                
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-            ></textarea>
+            <FadeIn delay={800}>
+                <label htmlFor="message">Message</label>
+            </FadeIn>
+            <FadeIn delay={850}>
+                <textarea className='buttonAdj button'                
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                ></textarea>
+            </FadeIn>
 
-            <button type="submit" className='submitButtonAdj button'>Submit</button>
+            <FadeIn delay={900}>
+                <button type="submit" className='submitButtonAdj button'>Submit</button>
+            </FadeIn>
         </form>
     </div>
   );
