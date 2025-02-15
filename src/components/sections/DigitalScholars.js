@@ -16,7 +16,14 @@ function DigitalScholars() {
                 </FadeIn>
                 <FadeIn>
                     <div className="iframeCont" style={{paddingTop: '56.25%'}}>
-                        <iframe className='responsive-iframe' src="https://www.youtube.com/embed/TxjIXy4b8ow?playlist=TxjIXy4b8ow&autoplay=1&mute=1&loop=1" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className='responsive-iframe' 
+                        src="https://player.vimeo.com/video/699874381?autoplay=1&loop=1&muted=1" 
+                        loading="lazy" 
+                        title="Vimeo video player" 
+                        frameBorder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowFullScreen>
+                    </iframe>
                     </div>
                 </FadeIn>
             </div>
