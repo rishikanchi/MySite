@@ -8,7 +8,6 @@ import PageNotFound from './pages/PageNotFound';
 import StartupUnicornAnalysis from './pages/MyManualLinks/StartupUnicornAnalysis';
 import Resume from './pages/MyManualLinks/Resume';
 import French from './pages/French';
-import RishiKanchiResume from './pages/MyManualLinks/RishiKanchiResume';
 
 
 function App() {
