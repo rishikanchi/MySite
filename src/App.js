@@ -21,7 +21,6 @@ function App() {
         <Route index element={<MainPage />}></Route>
         <Route path="/startup-unicorn-analysis" element={<StartupUnicornAnalysis />}></Route>
         <Route path="/resume" element={<Resume />}></Route>
-        <Route path="/RishiKanchiResume" element={<RishiKanchiResume />}></Route>
         <Route path="/francais" element={<French />}></Route>
 
         {/*The star indicates any page not included in the Routes*/}
