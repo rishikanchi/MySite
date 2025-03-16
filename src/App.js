@@ -8,6 +8,7 @@ import PageNotFound from './pages/PageNotFound';
 import StartupUnicornAnalysis from './pages/MyManualLinks/StartupUnicornAnalysis';
 import Resume from './pages/MyManualLinks/Resume';
 import French from './pages/French';
+import RishiKanchiResume from './pages/MyManualLinks/RishiKanchiResume';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route index element={<MainPage />}></Route>
         <Route path="/startup-unicorn-analysis" element={<StartupUnicornAnalysis />}></Route>
         <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/RishiKanchiResume" element={<RishiKanchiResume />}></Route>
         <Route path="/francais" element={<French />}></Route>
 
         {/*The star indicates any page not included in the Routes*/}
